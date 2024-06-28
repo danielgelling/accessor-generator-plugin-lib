@@ -1,20 +1,20 @@
 {
-    "name":              "hostnet/accessor-generator-plugin-lib",
+    "name":              "danielgelling/accessor-generator-plugin-lib",
     "type":              "composer-plugin",
     "description":       "Generate get, set, add, remove methods on the fly.",
     "license":           "MIT",
     "minimum-stability": "stable",
     "require": {
         "php":                  "^8.1",
-        "composer-plugin-api":  "^2.0",
+        "composer-plugin-api":  "^2",
         "ext-bcmath":           "*",
         "ext-json":             "*",
-        "doctrine/annotations": "^1.14.3",
-        "doctrine/collections": "^1.8.0",
-        "doctrine/dbal":        "^3.7.2",
+        "doctrine/annotations": "^2.0.0",
+        "doctrine/collections": "^2.2",
+        "doctrine/dbal":        "^4.0",
         "doctrine/inflector":   "^2.0.8",
-        "doctrine/orm":         "^2.17.2",
-        "symfony/filesystem":   "^5.4||^6.0",
+        "doctrine/orm":         "^3.2",
+        "symfony/filesystem":   "^7.1",
         "twig/twig":            "^3.9.3"
     },
     "require-dev": {
